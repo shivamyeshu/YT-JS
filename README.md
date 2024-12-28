@@ -3,6 +3,16 @@ TOPICS TO COVER :
 
 ### 1 JS BASICS 
  html + css + js = web an all 
+ Web development
+Web development involves writing a lot of HTML, CSS and JS code. 
+Historically (and even today to some extend), browsers could only understand HTML, CSS and JS
+Any website that you see, is a bunch of HTML, CSS and JS files along with some assets (images, videos etc)
+
+Facts/Callouts
+React, NextJS are frameworks . They compile down to HTML, CSS, JS in the end. That is what your browser understands.
+When you run your C++ code on leetcode , it does not run on your browser/machine. It runs somewhere else. Your browser can’t (almost) compile and run C++ code.
+If someone asks — What all languages can your browser interpret, the answer is HTML, CSS, JS and WebAssembly. It can, technically, run C++/Rust code that is compiled down to Wasm
+
 
 ### 2 PROPERTIES OF JS : 
 i) Interpreted
