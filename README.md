@@ -29,13 +29,34 @@ b) More prone to runtime errors
 ii) Dynamically Typed
  Variables in JavaScript are not bound to a specific data type. Types are determined at runtime and can change as the program executes
 
+ C++ Code (won’t compile)
+#include <iostream>
+
+int main() { 
+  int a = 1;
+  a = "hello";
+  a = true;
+}
+
+JS Code (will compile)
+
+var a = 1;
+a = "harkirat";
+a = true;
+
+console.log(a)
+
 
  iii) Single threaded thread sinle execution of a lang 
 JavaScript executes code in a single-threaded environment, meaning it processes one task at a time. We will dive deeper into this next week.
+![image](https://github.com/user-attachments/assets/95d8bd75-3112-47f7-92a0-02d96b6af562)
+
 
 iv) Garbage collected (auto memory allocation and deallocation)
 JavaScript automatically manages memory allocation and deallocation through garbage collection, 
 which helps prevent memory leaks by automatically reclaiming memory used by objects no longer in use.
+![image](https://github.com/user-attachments/assets/d14fe36d-2f26-4992-8426-ca92af615a4d)
+
 
 
 ### Syntax of Javascript
