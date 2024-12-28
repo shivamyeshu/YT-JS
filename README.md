@@ -116,7 +116,7 @@ const users = [{
 const user1 = users[0] 
 const user1Age = users[0].age
 
-
+###############################################################################################################################################################3
 ## deep dive into functions part 2
 ### function 
 
@@ -379,3 +379,67 @@ Web APIs are provided by the browser (or the Node.js runtime) and allow you to p
 The callback queue is a list of tasks (callbacks) that are waiting to be executed once the call stack is empty. These tasks are added to the queue by Web APIs after they have completed their operation.
 4. Event loop
 The event loop constantly checks if the call stack is empty. If it is, and there are callbacks in the callback queue, it will push the first callback from the queue onto the call stack for execution.
+
+#############################################################################################################################################################################################
+
+Promises and async, await
+
+Till now what we had covered 
+
+Classes in JS
+Primitive types
+number
+string
+boolean
+ 
+Complex types
+Objects
+Arrays
+
+
+### Classes
+In JavaScript, classes are a way to define blueprints for creating objects (these objects are different from the objects defined in the last section).
+
+For example
+
+class Rectangle {
+   constructor(width, height, color) {
+	    this.width = width;
+	    this.height = height;
+	    this.color = color; 
+   }
+   
+   area() {
+	   const area = this.width * this.height;
+		 return area;
+   }
+   
+   paint() {
+			console.log(`Painting with color ${this.color}`);
+   }
+   
+}
+
+const rect = new Rectangle(2, 4)
+const area = rect.area();
+console.log(area)
+
+---------------------------------------------------------------------------------
+Key Concepts
+1) Class Declaration:
+You declare a class using the class keyword.
+Inside a class, you define properties (variables) and methods (functions) that will belong to the objects created from this class.
+2) Constructor:
+A special method inside the class that is called when you create an instance (an object) of the class.
+It’s used to initialize the properties of the object.
+3) Methods:
+Functions that are defined inside the class and can be used by all instances of the class.
+4) Inheritance:
+Classes can inherit properties and methods from other classes, allowing you to create a new class based on an existing one.
+5) Static Methods:
+Methods that belong to the class itself, not to instances of the class. You call them directly on the class.
+6) Getters and Setters:
+Special methods that allow you to define how properties are accessed and modified.
+
+
+ 
